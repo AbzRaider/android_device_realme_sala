@@ -78,6 +78,18 @@
      <bool name="config_dozeAlwaysOnEnabled">true</bool>
      <bool name="config_eap_sim_based_auth_supported">true</bool>
 
+    <!-- Default list of files pinned by the Pinner Service -->
+    <string-array translatable="false" name="config_defaultPinnerServiceFiles">
+        <item>"/system/framework/framework.jar"</item>
+        <item>"/system/framework/services.jar"</item>
+        <item>"/apex/com.android.art/javalib/core-oj.jar"</item>
+        <item>"/apex/com.android.art/javalib/core-libart.jar"</item>
+        <item>"/apex/com.android.media/javalib/updatable-media.jar"</item>
+        <item>"/system/bin/surfaceflinger"</item>
+        <item>"/system_ext/priv-app/SystemUIGoogle/SystemUIGoogle.apk"</item>
+    </string-array>
+
+
     <!--  Whether Multiuser UI should be shown -->
      <bool name="config_enableMultiUserUI">true</bool>
 
